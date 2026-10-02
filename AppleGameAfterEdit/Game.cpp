@@ -229,7 +229,7 @@ namespace ApplesGame
 			}
 			else
 			{
-				RestartGame(game);
+				HandlerInputEndGame(game);
 			}
 		}
 		UpdateUIGame(game.uiState, game, deltaTime);
